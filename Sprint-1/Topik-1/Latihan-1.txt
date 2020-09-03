@@ -1,20 +1,19 @@
-A. Cara mengaktifkan MS-Word
-
-1.Klik star 
-2.Pilih Program
-3.Pilih Microsoft Word
-
-B. Cara membuka lembaran kerja baru
-
-1.Pilih menu File 
-2.Klik New
-3.Pilihlah Blank Document untuk membuat dokumen. atau
-4.Klik Icon New pada toolbar standar atau Tekan Ctrl+N pada keyboard
-
-C. Cara menyimpan data
-
-1.Pilih menu File 
-2.Pilih Save As (untuk dokumen yang belum diberi nama)
-3.Pada kotak Save In tentukan dimana akan disimpan (disket : flashdisk atau dalam hard disk)
-4.Pada kotak Save Name beri nama dokumen
-5.Pilih menu File klik Save atau tekan tombol Ctrl+S pada keyboard.
+1.Pertama Tama nyalakan laptop/komputer kalian
+2.Set data1 = microsoft office
+3.Set data2 = microsoft word
+4.Set new folder = new folder
+5.Pencarian Data 1
+6.JIKA data1 = 0
+  MAKA Install data1
+7.Lainnya
+   data1 = '1' = data2
+  AKHIRI-JIKA
+8.KETIKA
+   input data2
+9.MAKA Jalankan new folder
+  AKHIRI-KETIKA
+10.PROSES
+    new folder = Editing
+   AKHIRI-PROSES
+11.SELESAI
+   Editing text = save
