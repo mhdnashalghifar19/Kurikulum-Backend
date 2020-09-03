@@ -9,8 +9,7 @@ B. Cara membuka lembaran kerja baru
 1.Pilih menu File 
 2.Klik New
 3.Pilihlah Blank Document untuk membuat dokumen. atau
-Klik Icon New pada toolbar standar atau
-Tekan Ctrl+N pada keyboard
+4.Klik Icon New pada toolbar standar atau Tekan Ctrl+N pada keyboard
 
 C. Cara menyimpan data
 
