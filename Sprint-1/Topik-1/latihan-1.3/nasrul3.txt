@@ -1,0 +1,2 @@
+perintah which php itu termasuk bagian dari terminal perintah ini menghasilkan output usr/bin/php 
+usr/bin/php merupakan direktori php yang digunakan dalam terminal
