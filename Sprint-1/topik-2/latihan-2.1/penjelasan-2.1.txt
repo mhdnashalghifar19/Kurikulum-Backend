@@ -1,0 +1,22 @@
+var_dump($d + $e);
+    3 + 2 = 5
+var_dump($e == $f);
+    true dikarnakan == tidak memandang angka yang berbeda tapi yang penting sama angkanya contoh p == P = 2 true
+var_dump($e === $f);
+    false dikarenakan === mengharuskan angka yang sama kebalikan dari "==" contoh p === P = false karena berbeda
+var_dump($g);
+    karena $g =  nilai kosong atau "hampa"
+var_dump((bool)$g);
+    karena nilai bool adalah false 
+var_dump((int)$g);
+    hasil dari init $g = 0 (karena tidak bernilai)
+
+
+var_dump(true && false);
+    false karena jika salah satu di antara keduanya tidak ada atau tidak sesuai maka salah
+var_dump(true || false);
+    true karena cukup salah satu di antara keduanya saja sudah bener
+var_dump(false || false);
+    false karena semuanya false
+var_dump(!false);
+    true karena jika tidak false maka true, sebaliknya jika tidak true maka false
