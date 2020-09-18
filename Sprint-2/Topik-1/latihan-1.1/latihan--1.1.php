@@ -27,13 +27,13 @@ class PelayananPerpustakaan extends PerpusLipia{
     protected $dataPeminjaman = [
         [
             'nama'=>'leon',
-            'judul buku'=>'love mati',
+            'judul buku'=>'cinta mati',
             'tanggal peminjaman'=>'19-09-99',
             'tanggal pengembalian'=>'19-10-99'
         ],
         [
             'nama'=>'alex',
-            'judul buku'=>'love terlarang',
+            'judul buku'=>'cinta terlarang',
             'tanggal peminjaman'=>'19-11-99',
             'tanggal pengembalian'=>'19-12-99'
         ]

@@ -5,7 +5,6 @@ class OperasiHitung{
         return ($p*$l);
     }
 }
-$operasi= new OperasiHitung;
 
 echo "1. luas_persegi panjang \n";
 echo "Silahkan Pilih ? ";
