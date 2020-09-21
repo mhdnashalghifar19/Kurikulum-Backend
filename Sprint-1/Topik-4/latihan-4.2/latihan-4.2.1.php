@@ -1,39 +1,40 @@
 <?php
+
 $students = [
     [
-        'id' => 'IT-001',
-        'name' => 'Ridwan',
+        'id' => 'IT-019',
+        'name' => 'Rahmat',
         'division' => 'PHP Backend',
         'age' => 25,
     ],
     [
-        'id' => 'IT-010',
-        'name' => 'Achmad',
+        'id' => 'IT-009',
+        'name' => 'Iqbal',
         'division' => 'Java for Android',
         'age' => 23,
     ],
     [
-        'id' => 'IT-005',
-        'name' => 'Yusuf',
-        'division' => 'ReactJS',
+        'id' => 'IT-006',
+        'name' => 'Fadil',
+        'division' => 'React JS',
         'age' => 22,
     ],
     [
-        'id' => 'IT-002',
+        'id' => 'IT-046',
         'name' => 'Arief',
         'division' => 'PHP Backend',
         'age' => 21,
     ],
     [
-        'id' => 'IT-004',
-        'name' => 'Dayat',
+        'id' => 'IT-095',
+        'name' => 'Fauzil',
         'division' => 'React Native',
         'age' => 21,
     ],
     [
-        'id' => 'IT-017',
-        'name' => 'Lutfi',
-        'division' => 'ReactJS',
+        'id' => 'IT-025',
+        'name' => 'Rijlan',
+        'division' => 'React JS',
         'age' => 18,
     ],
 ];
@@ -81,14 +82,18 @@ function sort_umur($arr){
 }
 print_r($students);
 
-echo "\n1. Urutkan Berdasarkan ID\n";
+$kondisi = true;
+while ($kondisi){
+
+echo "1. Urutkan Berdasarkan ID\n";
 echo "2. Urutkan Berdasarkan Nama\n";
 echo "3. Santri Yang Minat Dengan PHP-Backend\n";
 echo "4. Santri Berusia Kurang Dari 25\n";
 echo "5. Rata-Rata Usia Santri\n";
-echo "6. Urutkan Berdasarkan Usia";
+echo "6. Urutkan Berdasarkan Usia\n";
 echo "Pilih Sesuai Nomer : ";
 $pilih=trim(fgets(STDIN));
+
 switch ($pilih) {
     case 1:
         sort_id($students);
@@ -111,4 +116,16 @@ switch ($pilih) {
     default:
         echo "\nPilihan Tidak Tersedia\n.";
         break;
+    }
+    echo "\nApakah Anda masih ingin menjalankan program ? (y/n)";
+            $pilih = trim(fgets(STDIN));
+            if($pilih == 'n'){
+                $kondisi = false;
+            }
 }
+
+
+
+
+
+?>
