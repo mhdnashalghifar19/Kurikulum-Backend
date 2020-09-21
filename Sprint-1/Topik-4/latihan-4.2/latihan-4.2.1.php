@@ -83,7 +83,7 @@ function sort_umur($arr){
 print_r($students);
 
 $kondisi = true;
-while ($kondisi){
+while ($kondisi) {
 
 echo "1. Urutkan Berdasarkan ID\n";
 echo "2. Urutkan Berdasarkan Nama\n";
@@ -114,7 +114,7 @@ switch ($pilih) {
         sort_umur($students);
         break;
     default:
-        echo "\nPilihan Tidak Tersedia\n.";
+        echo "\nPilihan Tidak Tersedia !\n";
         break;
     }
     echo "\nApakah Anda masih ingin menjalankan program ? (y/n)";
