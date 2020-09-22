@@ -13,7 +13,7 @@ class PendaftaranSantriGontor{
    ];
 
    public function tambahdatasantri(){
-      $i=count(this->dataSantri);
+      $i=count($this->dataSantri);
       echo "Input ID Santri = ";
       $this->dataSantri[$i]['User ID']=trim(fgets(STDIN));
       echo "Input Nama Santri = ";
@@ -26,7 +26,7 @@ class PendaftaranSantriGontor{
 class PendaftaranSantriBaru extends PendaftaranSantriGontor{
       public $daftar_santri = [
          'Nama'   =>'Rahmat'
-      ]
+      ];
 }
 
 
