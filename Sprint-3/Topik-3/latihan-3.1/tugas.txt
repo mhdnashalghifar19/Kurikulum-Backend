@@ -1,0 +1,14 @@
+1). 1NF(First Normal Form) merupakan bentuk normalisasi dari database yang menghilangkan duplikasi kolom tabel yang sama. pada bentuk ini juga dibuat tabel baru yang berisi data-data yang terkait dengan primary key pada tabel utama.
+
+
+
+2). 2NF(Second Normal Form) merupakan bentuk normalisasi kedua setelah bentuk 1NF, maka syarat normalisasi ini adalah sudah terbentuk normalisasi 1NF terlebih dahulu dengan tambahan menghapus beberapa sub data pada tabel utama dan memisahkan ke tabel yang lain, dan membuat hubungan antar tabel sehingga tercipta foreign key.
+
+
+
+3). 3NF(Third Normal Form), normalisasi ini bertujuan untuk menghilangkan seluruh atribut yang tidak berhubungan dengan primary key dalam tabel utama, sehingga dalam tabel utama tidak ada lagi atribut yang tidak digunakan karena dipindahkan dan dikumpulkan ke tabel baru.
+
+Intinya adalah semakin menambah bentuk form, maka bentuk dari normalisasi akan semakin simpel, UNF(Unnormalized Form) / data yang belum dinormalisasi bentuknya masih sangat kompleks, kemudian dinormalisasi menjadi 1NF sehingga lebih simpel, setelah itu bisa dinormalisasi lagi menjadi 2NF yang lebih simpel lagi dengan memecah data tersebut menjadi beberapa tabel, setelah itu baru dinormalisasi menjadi 3NF sehingga pada tabel utama tidak ada lagi kolom/atribut yang tidk perlu digunakan karena dipindahkan ke tabel lain yang disambungkan dengan tabel utama menggunakan foreign key.
+
+
+            
