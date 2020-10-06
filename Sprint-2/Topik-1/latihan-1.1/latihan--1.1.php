@@ -12,15 +12,15 @@ class PerpusLipia{
 
 ];
 
-public function tambahBuku(){
-    $i=count($this->dataBuku);
+    public function tambahBuku(){
+        $i=count($this->dataBuku);
 
-    echo "isbn = ";
-    $this->dataBuku[$i]['isbn']= trim(fgets(STDIN));
-    echo "judul = ";
-    $this->dataBuku[$i]['judul']= trim(fgets(STDIN));
-    print_r($this->dataBuku);
-}
+        echo "isbn = ";
+        $this->dataBuku[$i]['isbn']= trim(fgets(STDIN));
+        echo "judul = ";
+        $this->dataBuku[$i]['judul']= trim(fgets(STDIN));
+        print_r($this->dataBuku);
+    }
 }
 
 class PelayananPerpustakaan extends PerpusLipia{
