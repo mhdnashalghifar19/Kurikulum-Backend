@@ -9,3 +9,4 @@ class Segitiga
         echo "<script>alert('Luas Segitiga = $luas !');</script>";
     }
 }
+
