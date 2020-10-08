@@ -1,0 +1,19 @@
+{
+    "name": "muhammad/composer",
+    "description": "testing composer",
+    "authors": [
+        {
+            "name": "mhdnashalghifarl",
+            "email": "mhdnasrullahal@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\" : "src/" 
+        }
+    }
+
+}
