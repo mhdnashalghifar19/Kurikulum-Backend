@@ -1,0 +1,17 @@
+{
+    "name": "muhammad/latihan-3.0",
+    "description": "latihan",
+    "type": "library",
+    "authors": [
+        {
+            "name": "mhdnashalghifarl",
+            "email": "mhdnasrullahal@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hitung\\":"Kelas/"
+        }
+    }
+}
