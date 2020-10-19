@@ -13,16 +13,19 @@ if (isset($_SESSION['login'])) {
     <title>Halaman Login</title>
 </head>
 <body>
-    <h1>Login</h1>
+<div class="container">
+    <h1>Halaman Login</h1>
+</div>
+    
     
     
 <form action="<?= BASEURL; ?>/admin/logiclogin" method="post">
 <label for="username">username : </label>
 <input type="text" name="username" id="username">
-<br><br>
+
 <label for="password">password : </label>
 <input type="password" name="password" id="password">
-<br><br>
+
 <button type="submit" name="submit">masuk</button>
 </form>
 <br>

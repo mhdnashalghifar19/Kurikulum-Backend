@@ -30,7 +30,7 @@
                 </div>
             </div>
         </form>
-                    <a href="<?= BASEURL; ?>/admin/keluar"><button class="btn btn-outline-light">Keluar</button></a>
+                    <a href="<?= BASEURL; ?>/admin/keluar"><button class="btn btn-outline-light ml-4"><i class="fa fa-power-off"></i> Log out</button></a>
     </div>
 </nav>
 
