@@ -15,23 +15,23 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                        <a class="nav-link active" href="{{ url('/') }}">Home</a>
-                        <a class="nav-link" href="{{ url('/about') }}">About</a>
-                        <a class="nav-link" href="{{ url('/mahasiswa') }}">Mahasiswa</a>
-                        <a class="nav-link" href="{{ url('/students') }}">Students</a>
-                        </div>
+                <a class="navbar-brand" href="">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-link active" href="{{ url('/') }}">Home</a>
+                    <a class="nav-link" href="{{ url('/about') }}">About</a>
+                    <a class="nav-link" href="{{ url('/teachers') }}">Teachers</a>
+                    <a class="nav-link" href="{{ url('/students') }}">Students</a>
+                    <a class="nav-link" href="{{ url('/articles') }}">Articles</a>
                     </div>
+                </div>
             </div>
-
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    <!-- {{ config('app.name', 'Laravel') }} -->
-                </a>
+                <!-- <a class="navbar-brand" href="{{ url('/') }}">
+                    {{ config('app.name', 'Laravel') }}
+                </a> -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -78,10 +78,9 @@
             </div>
         </nav>
 
-        <!-- Styles -->
         <style>
             html, body {
-                background-image: url(../img/gambar);
+                background-image: url(../img/gambar3.jpg);
                 background-color: #fff;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;

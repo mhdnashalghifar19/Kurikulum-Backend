@@ -12,6 +12,7 @@
         <!-- Styles -->
         <style>
             html, body {
+                background-image: url(../img/gambar15.jpg);
                 background-color: #fff;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
