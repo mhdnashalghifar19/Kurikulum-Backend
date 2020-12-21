@@ -12,11 +12,15 @@ $response = $client->request('POST', 'https://api.pondokprogrammer.com/api/stude
     ]
 ]);
 
-$result = json_decode($response->getBody(), true);
+    // print_r($response);
 
-$token = $result["token"];
+// $result = json_decode($response->getBody(), true);
+$result = json_decode($response->getBody());
 
-$response = $client->request('POST', 'https://api.pondokprogrammer.com/api/class/qr?class_id=85' , [
+// // $token = $result["token"];
+$token = $result->token;
+
+$response = $client->request('POST', 'https://api.pondokprogrammer.com/api/class/qr?class_id=111' , [
     'headers' => [
         'Authorization' => "bearer $token"  
     ]
@@ -24,6 +28,3 @@ $response = $client->request('POST', 'https://api.pondokprogrammer.com/api/class
 ]);
 
 ?>
-
-
-       
